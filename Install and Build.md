@@ -86,6 +86,7 @@ ZABBIX 5.2, Ubuntu 18.04, MYSQL, Apache로 구성
 
 ![4](https://user-images.githubusercontent.com/62642155/105120385-804e7b80-5b15-11eb-9281-210bfb67edf2.png)
 
-Template OS Windows SNMP밖에 없음.
+Template항목에서 사진과 달리 OS Windows SNMP밖에 없음.
 ![5](https://user-images.githubusercontent.com/62642155/105120389-82b0d580-5b15-11eb-8609-dcc9bbc049b0.png)
-그래픽과 디스커버리 항목을 설정해 원하는 항목을 보면 된다.
+
+이 후 그래픽과 디스커버리 항목을 설정해 원하는 항목을 보면 된다.
