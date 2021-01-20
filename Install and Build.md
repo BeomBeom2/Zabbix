@@ -67,15 +67,25 @@ ZABBIX 5.2, Ubuntu 18.04, MYSQL, Apache로 구성
 
 # STEP 3
 
-웹에서 자신IP/zabbix로 설정
+웹에서 자신IP/zabbix로 들어가 zabbix설정
 
-
+![zabbix PW](https://user-images.githubusercontent.com/62642155/105120336-6c0a7e80-5b15-11eb-9ec3-4d4927bc85cb.png)
 1. PW설정 (=password)
 
 2. 로그인 Admin, zabbix
 
-통신할 컴퓨터에 SNMP설치
+3. 통신할 컴퓨터에 SNMP설치
+
+![1](https://user-images.githubusercontent.com/62642155/105120382-7f1d4e80-5b15-11eb-8b64-f81a53bec095.png)
+
+![2](https://user-images.githubusercontent.com/62642155/105120378-7c225e00-5b15-11eb-9c1d-505bd09dae58.png)
+
+![3](https://user-images.githubusercontent.com/62642155/105120379-7dec2180-5b15-11eb-9cce-7ba369d369e2.png)
+
+4. zabbix 대쉬보드 호스트 생성
+
+![4](https://user-images.githubusercontent.com/62642155/105120385-804e7b80-5b15-11eb-9281-210bfb67edf2.png)
 
 Template OS Windows SNMP밖에 없음.
-
+![5](https://user-images.githubusercontent.com/62642155/105120389-82b0d580-5b15-11eb-8609-dcc9bbc049b0.png)
 그래픽과 디스커버리 항목을 설정해 원하는 항목을 보면 된다.
