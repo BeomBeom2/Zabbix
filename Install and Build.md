@@ -50,13 +50,18 @@ ZABBIX 5.2, Ubuntu 18.04, MYSQL, Apache로 구성
  - zcat /usr/share/doc/zabbix-server-mysql*/create.sql.gz | mysql -uzabbix -p zabbix
 - Enter password: password
 
-> mysql에 자빅스 테이블 생성됐는지 확인 	sudo mysql -u root -p 	use zabbix; 	show tables;
+> mysql에 자빅스 테이블 생성됐는지 확인 
+>	sudo mysql -u root -p 
+>	use zabbix; 	
+>	show tables;
 
-**자빅스 서버 conf파일 업뎃**
-	 - sudo vi /etc/zabbix/zabbix_server.conf
-	 DBPassword의 주석을 지우고 password라고입력
+**자빅스 서버 conf파일 업뎃** 
+
+- sudo vi /etc/zabbix/zabbix_server.conf
+	DBPassword의 주석을 지우고 password라고입력
 
 **자빅스 php conf파일 업뎃**
+
 - sudo vi /etc/zabbix/apache.conf
 	php_value date.timezone Asia/Seoul으로 수정
 
