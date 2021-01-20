@@ -25,6 +25,9 @@ ZABBIX 5.2, Ubuntu 18.04, MYSQL, Apache로 구성
 		> sudo mysql -V 
 		> sudo apache2 -V
 
+		> 라즈베리파이(debian)는 mysql-server X
+		> mysql-server대신 sudo apt install mariadb-server
+
  - **c. MYSQL서버 구성하기(in 우분투)**
 	 - ssudo mysql_secure_installation 
 		  -  Press y|Y for Yes, and other key for No : n(No super complex PW)
@@ -90,3 +93,6 @@ Template항목에서 사진과 달리 OS Windows SNMP밖에 없음.
 ![5](https://user-images.githubusercontent.com/62642155/105120389-82b0d580-5b15-11eb-8609-dcc9bbc049b0.png)
 
 이 후 그래픽과 디스커버리 항목을 설정해 원하는 항목을 보면 된다.
+
+
+
