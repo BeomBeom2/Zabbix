@@ -9,6 +9,6 @@ categories:
     label: 'documentation'
 change-template: '- $TITLE #$NUMBER @$AUTHOR '
 template: |
-  ## Uncategorized
+  ## MSLM updates 
   $CHANGES
   ### Bump setup.py version must be included here!
